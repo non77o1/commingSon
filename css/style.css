@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+    
+
+body{
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+header {
+    background-image: url("../image/header.jpg");
+    background-size: cover;
+    background-position: center center;
+    /* text-align: center; */
+}
+
+header .brand{
+    margin: 100px auto 60px;
+    display: inline-block;
+    padding-bottom: 35px;
+    border-bottom: 5px solid #464b52;
+}
+
+header .heading-page h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 75px;
+    color: #fff;
+}
+
+header .heading-page p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #acacac;
+    width: 40%;
+    margin: auto;
+}
