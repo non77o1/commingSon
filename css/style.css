@@ -124,3 +124,137 @@ section.features .row .d-flex p{
 section.features .row .col-md-6:nth-child(even){
 direction: ltr;
 }
+
+
+footer{
+    background-image: url('../images/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+
+footer .footer-notifcation{
+    background-color: rgba(250, 206, 0,0.7);
+    padding: 70px 0;
+}
+
+footer .footer-notifcation h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+footer .input-group{
+    width: 30%;
+    margin: auto;
+}
+
+footer .input-group input{
+    font-size: 18px;
+    border-radius: 0;
+    color: #c7c7c7;
+    border: #fff solid 2px;
+    text-align: right;
+}
+footer .input-group input:focus{
+    box-shadow: none;
+    border: #fff solid 2px;
+}
+
+footer .input-group button{
+    background-color: #393939;
+    padding: 13px 33px ;
+    border-radius: 0%;
+}
+
+footer .input-group button:focus,
+footer .input-group button:hover{
+background-color: #393939;
+}
+
+footer .Social-media{
+    background-color: rgba(57, 57, 57, .9);
+    padding: 100px 0 30px;
+}
+
+footer .Social-media h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+footer .Social-media .list-inline a{
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, .14);
+    color: #fff;
+    display: block;
+    transition: .5s;
+}
+
+footer .Social-media .list-inline a:hover{
+    color: rgba(57, 57, 57, .9);
+    background-color: #fad32f;
+}
+
+footer .Social-media hr{
+    width: 25%;
+    margin: 50px auto 30px;
+}
+
+footer .Social-media a.email{
+    color: #b4b4b4;
+    text-decoration: none;
+}
+
+footer .Social-media a.email i{
+    color: #ffce00;
+    margin-left: 5px;
+}
+
+@media (max-width:992px){
+    .input-group{
+        width: 50% !important;
+    }
+
+    header .heading-page p{
+        width: 70%;
+
+    }
+
+    section.features .row .d-flex {
+        padding: 15px 10px;
+    }
+
+    section.features .row .d-flex h4{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:660px){
+    header .count-down{
+        width: 80% !important;
+    }
+}
+
+@media (max-width:576px) {
+    .input-group{
+        width: 80% !important;
+    }
+
+    header .heading-page p{
+        width: 90%;
+    }
+
+    header .heading-page h1{
+        font-size: 45px;
+    }
+
+    header .count-down{
+        width: 80% ;
+    }
+
+}
